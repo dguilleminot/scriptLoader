@@ -1,0 +1,15 @@
+<!DOCTYPE>
+<html htmllang="fr">
+  <head>
+    <title>scriptLoader</title>
+  </head>
+  <body>
+  <script src="scriptLoader.min.js"></script>
+  <script>
+        new ScriptLoader({
+          depScript : ["https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js","https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"],
+          script    : ["https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js", "test.js"],
+        }).init();
+  </script>
+  </body>
+</html>
